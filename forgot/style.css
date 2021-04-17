@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+};
+
+.border{
+    border-bottom:1px solid rgba(179, 176, 176,0.5) !important;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.icon-h1{
+    display: flex;
+    align-items: center
+}
+.h1{
+    padding: 0.5rem !important;
+    font-size: 1rem;
+    color: gray;
+    font-weight: 500;
+}
+.section-container{
+    max-width: 800px;
+    margin: 0 auto;
+   
+    padding: 1.2rem;
+    padding-top: 2.5rem;
+}
+.section-container p{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.section-container span{
+    font-size: 1rem;
+    font-weight: 200;
+}
+.section-container .input{
+padding-top: 1rem;
+padding-bottom: 0.2rem;
+}
+.section-container input{
+width: 30%; 
+border: 0;
+outline: 0;
+border-radius: 50px;
+padding: 0.3rem;
+border: 1px solid rgb(179, 177, 177);
+    }
+    .section-container input:focus{
+        border: 1px solid rgb(192, 189, 189);
+        box-shadow: 0 0 3px rgb(53, 132, 163);
+            }
+
+            .section-container .button{
+              outline: 0;
+              border: 0;
+              background-color: rgb(68, 156, 190);
+              color: #fff;
+              width: 10%;
+              border-radius: 50px;
+              padding: 0.3rem;
+              
+              margin-top: 1rem;
+            }
+
+/* .dropdownMenu2:focus{
+border: 0;
+outline: 0;
+} */
+    
+@media screen and (max-width:760px) {
+    .icon-img{
+        width: 40px;
+        height: 40px;
+    }
+    .h1{
+        font-size: 0.7rem;
+    }
+    .section-container p{
+        font-size: 1.2rem;
+    }
+    .section-container span{
+        font-size: 0.7rem;
+        font-weight: 200;
+    }
+    .section-container input{
+    width: 80%; 
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    padding: 0.3rem;
+    border: 1px solid rgb(179, 177, 177);
+        }
+        .section-container .button{
+            
+            width: 50%;
+            
+          }
+}
+
+
+
+@media screen and (max-width:400px) {
+    .container{
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+       flex-direction: column;
+     
+    }
+          
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    

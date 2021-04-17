@@ -1,0 +1,127 @@
+body{
+    background-color: rgba(26, 26, 26,0.5);
+    margin: 0;
+    padding: 0;
+}
+.popup-container{
+    width:100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    position: relative;
+    background: #fff;
+    z-index: 10;
+    width: 50%;
+    height: 80vh;
+    border-radius: 15px;
+}
+.icon-img-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+    padding-right:1.2rem;
+    padding-left:1.2rem;
+    
+}
+.icon-img-btn i{
+    color:#1da1f2;
+    font-size: 1.4rem;
+ 
+}
+.icon-img-btn i:hover{
+    
+    cursor: pointer;
+}
+
+.icon-img-btn img{
+    width: 35px;
+    height: 35px;
+}
+
+.icon-img-btn button{
+    background-color:#1da1f2;
+    width: 20%;
+    padding: 0.7rem;
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    color:#fff;
+    font-size: 0.8rem;
+    font-weight:bold;
+}
+.icon-img-btn button:hover{
+    cursor: pointer;
+}
+.items{
+    padding: 0.5rem;
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
+}
+.items h1,
+.p-item{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.items .input-div input{
+    width: 80%;
+    border: 0;
+    outline: 0;
+    height: 8vh;
+    border: 1px solid rgb(167, 165, 165);
+    font-size: 1rem;
+    opacity: 0.7;
+    border-radius: 3px;
+    margin-bottom: 0.5rem;
+}
+.items .input-div input:focus{
+    box-shadow: 0 0 5px #1da1f2;
+    border: 1px solid rgb(5, 118, 184);
+    
+}
+.items .span-item{
+    font-size: 0.8rem;
+    color: #1da1f2;
+    
+}
+.items .span-item:hover{
+   cursor: pointer;
+    text-decoration: underline;
+}
+@media screen and (max-width:750px) {
+    .inner{
+        width: 80%;
+        height: 60vh;
+    }
+    .icon-img-btn button{
+        width: 30%;
+        
+    }
+    .items .h1-item{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .inner{
+        width: 80%;
+        height: 60vh;
+    }
+    .icon-img-btn button{
+        width: 30%;
+        
+    }
+    .items .h1-item{
+        font-size: 1.2rem;
+    }
+    .items .p-item{
+        font-size: 1rem;
+    }
+    .items .input-div input{
+        width: 80%;
+        height: 5vh;
+        
+    }
+}
