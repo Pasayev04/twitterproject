@@ -1,7 +1,7 @@
 body,html {
     height: 100vh;
     width: 100%;
-  background-color: #000;
+  background-color: #fff;
   margin: 0px;
   padding: 0px;
 
@@ -9,7 +9,6 @@ body,html {
 .container{
     height: 100vh;
     display: flex;
-  
     height: 700px;
 }
 .left-side{
@@ -31,7 +30,7 @@ body,html {
     height: 40px;
 }
 h1{
-color: white;
+color: #000;
     margin-top: 10%;
   
     font-size: 70px;
@@ -40,7 +39,7 @@ color: white;
  h2{
      margin-top: 40px;
      margin-bottom: 40px;
-     color: #fff;
+     color: #000;
     font-family: 'Work Sans', sans-serif;
    font-size: 30px;
    
@@ -51,10 +50,21 @@ color: white;
      width: 400px;
      background-color: transparent;
      height: 45px;
+     font-size: 13px;
      color: white;
+     font-weight: 600;
  }
  .btn-2{
     color: rgb(29, 161, 242);
+ }
+ .btn-1:hover{
+     background-color: rgb(19, 124, 173);
+     cursor: pointer;
+     transition: all 0.3s ease;
+ }
+ .btn-2:hover{
+     background-color: rgb(205, 219, 211);
+     cursor: pointer;
  }
  .btn-1{
     

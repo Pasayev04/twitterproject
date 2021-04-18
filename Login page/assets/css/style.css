@@ -22,6 +22,10 @@ body{
     border: 1px solid #1da1f2;
     outline-style: none;
 }
+input:hover{
+    box-shadow: 0 0 5px rgb(47, 173, 207)
+
+}
 .btn  button{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 25px;
